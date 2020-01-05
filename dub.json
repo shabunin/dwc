@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"bobalus"
+	],
+	"copyright": "Vladimir Shabunin",
+	"description": "Simple WebSocket client",
+	"license": "MIT",
+	"name": "dwc"
+}
