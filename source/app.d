@@ -188,7 +188,7 @@ class MyBasicWsClient {
     // to text
     ubyte[] decoded;
     decoded.length = msglen;
-    decoded[0..msglen] = cast(ubyte[])data[offset..$];
+    decoded[0..msglen] = cast(ubyte[])data[offset..offset+msglen];
 
     string text = (cast(char[])decoded).toUTF8();
     // if whole frame or the end of fragmented
